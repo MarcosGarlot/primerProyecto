@@ -157,8 +157,6 @@ ul li a{
         z-index: 50px;
     }
     .div__titulos{
-        font-family: "Lemon/Milk";
-        src: url("../assets/font/LemonMilk.otf");
         font-size: 45px;
         text-align: center;
     }
