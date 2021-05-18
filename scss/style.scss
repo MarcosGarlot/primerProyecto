@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.container-fluid{
+    padding-top: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* Logo */
+.nav__logo{
+    position: absolute;
+    left: 10px;
+    top:0px;
+    height: 150px;
+    z-index: 50px;
+}
+/* navegador */
+
+ul li a{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+/* pages */
+.div__titulos{
+    letter-spacing: 3px;
+
+    font-family: "Lemon/Milk";
+    src: url("../assets/font/LemonMilk.otf");
+    font-size: 95px;
+}
+.div__subtitulos{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+}
+.div__texto{
+    font-family: 'Archivo Narrow', sans-serif;
+    text-align: center;
+}
+.ref__link{
+    font-size: 10px;
+    color: grey;
+}
+
+/* footer */
+.footer__social__media{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px 20px 0px;
+    font-weight: bold;
+}
+.footer__social__media__icon{
+    transition: all 0.5s;
+    padding: 0px 10px;
+}
+.footer__social__media__icon:hover{
+    transform: scale(1.25,1.25); 
+}
+.footer__social__media__icon--neg{
+    filter: invert(1)
+}
+
+/* Inicio */
+.body__inicio{    
+    overflow: hidden;
+    background: url("../assets/img/inicioBg.jpg") no-repeat center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.div__textos--inicio{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    color: white;
+}
+.footer__social__media--inicio{
+    position: absolute; 
+    left: 10px;
+    bottom: 10px;
+}
+
+
+/* NOSOTROS */
+.div__img--headshots{
+    border-radius: 500px ;
+    height: 150px;
+}
+/* SERVICIOS */
+.div__img--servicios{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #5e5b5b;
+}
+.div__texto--servicios{
+    text-align: left;
+}
+/* Portfolio */
+.div__img--portfolio{
+    border-radius: 15px 0px 15px 0px ;
+    height: 150px;
+    box-shadow: 0 0 10px #5e5b5b
+}
+.div__subtitulos--boton{
+    font-size: 16px !important;
+}
+/* Contacto */
+.section__formulario--contacto{
+    display: block;
+    z-index: 0;
+    margin-right: auto;
+    margin-left: auto ;
+    width: 50%;
+    padding: 10px;
+
+    text-align: left;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px grey;
+    
+} 
+.section__texto--consulta{
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    border-color: lightgray ;
+    border-width: 0.5px;
+    border-radius: 5px;
+}
+.form__boton--contacto{
+    width: 49%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* queries */
+@media all and (max-width: 768px){
+    *{
+        font-size: 16px;
+    }
+    .nav__logo{
+        position: relative;
+        top:0px;
+        height: 50px;
+        z-index: 50px;
+    }
+    .div__titulos{
+        font-size: 45px;
+        text-align: center;
+    }
+    .div__subtitulos{
+        text-align: center;
+        font-size: 21px;
+    }
+    .div__texto{
+        text-align: center;
+        font-size: 16px;
+    }
+     /* Queries de inicio */
+    .div__textos--inicio{
+        top: 50px;
+        left: 0px;
+    }
+    .footer__social__media--inicio{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+     /* Queries de servicios */
+    .div__img--servicios{
+        height: 300px;
+        width: 300px;
+    }
+    .div__texto--servicios{
+        text-align: center;
+    }
+    /* Queries de portfolio*/
+    .div__subtitulos--boton{
+        font-size: 12px !important;
+    }
+    /* Queries de contacto */
+    .section__formulario--contacto{
+        width: 95%;
+    }
+}
+
