@@ -13,17 +13,12 @@
 
 /* Logo */
 .nav__logo{
-    position: absolute;
-    left: 10px;
-    top:0px;
-    height: 150px;
-    z-index: 50px;
+    padding: 5px 0px;
 }
 /* navegador */
 
 ul li a{
     font-family: 'Julius Sans One', sans-serif;
-    text-align: center;
 }
 
 /* pages */
@@ -47,7 +42,7 @@ ul li a{
 }
 .autor__link{
     font-size: 20px;
-    color: black;
+    color: white;
 }
 
 /* footer */
@@ -56,8 +51,9 @@ ul li a{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    padding: 50px 10px 0px;
-    border-top: black solid 1px;
+    padding: 50px 10px;
+    background-color: #212529;
+    color: white;
 }
 .footer__logo__datos{
     display: flex; 
@@ -90,7 +86,7 @@ ul li a{
 .footer__social__media__icon:hover{
     transform: scale(1.25,1.25); 
 }
-.footer__social__media__icon--neg{
+.icon__neg{
     filter: invert(1)
 }
 
@@ -106,7 +102,7 @@ ul li a{
 }
 .div__textos--inicio{
     position: relative;
-    top: 250px;
+    top: 125%;
     left: 20px;
     color: white;
 }
