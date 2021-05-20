@@ -51,8 +51,8 @@ ul li a{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    padding: 50px 10px;
-    background-color: #212529;
+    padding: 10px 10px;
+    background-color: #343a40;
     color: white;
 }
 .footer__logo__datos{
@@ -115,8 +115,9 @@ ul li a{
 
 /* NOSOTROS */
 .div__img--headshots{
-    border-radius: 500px ;
+    border-radius: 100px ;
     height: 150px;
+    box-shadow: 0 0 10px #5e5b5b;
 }
 /* SERVICIOS */
 .div__img--servicios{
@@ -196,10 +197,9 @@ ul li a{
     }
     .footer{
         flex-direction: column;
-        padding: 0px 0px 0px;
     }
     .footer div{
-        margin-top: 20px;
+        margin: 20px;
     }
     .footer__social__media__icon{
         padding: 0px 20px;
