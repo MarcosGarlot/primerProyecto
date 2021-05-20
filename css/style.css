@@ -44,6 +44,9 @@ ul li a{
     font-size: 20px;
     color: white;
 }
+span{
+    font-weight: bold;
+}
 
 /* footer */
 .footer{
@@ -129,8 +132,15 @@ ul li a{
     border-radius: 10px;
     box-shadow: 0 0 10px #5e5b5b;
 }
-.div__texto--servicios{
+.div__texto__izq--servicios{
     text-align: left;
+}
+.div__texto__der--servicios{
+    text-align: right;
+}
+.div__subtitulos--servicios{
+    font-weight: bold;
+    font-size: 60px;
 }
 /* Portfolio */
 .div__img--portfolio{
@@ -140,6 +150,14 @@ ul li a{
 }
 .div__subtitulos--boton{
     font-size: 16px !important;
+}
+.div__texto__izq--portfolio{
+    text-align: left;
+    font-weight: bold;
+}
+.div__texto__der--portfolio{
+    text-align: right;
+    color: #343a40
 }
 /* Contacto */
 .section__formulario--contacto{
@@ -226,6 +244,7 @@ ul li a{
     .div__subtitulos--boton{
         font-size: 12px !important;
     }
+    
     /* Queries de contacto */
     .section__formulario--contacto{
         width: 95%;
