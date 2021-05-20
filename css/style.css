@@ -153,10 +153,12 @@ span{
     font-size: 16px !important;
 }
 .div__texto__izq--portfolio{
+    font-family: 'Archivo Narrow', sans-serif;
     text-align: left;
     font-weight: bold;
 }
 .div__texto__der--portfolio{
+    font-family: 'Archivo Narrow', sans-serif;
     text-align: right;
     color: #343a40
 }
@@ -196,12 +198,7 @@ span{
     *{
         font-size: 16px;
     }
-    .nav__logo{
-        position: relative;
-        top:0px;
-        height: 50px;
-        z-index: 50px;
-    }
+
     .div__titulos{
         font-size: 45px;
         text-align: center;
@@ -245,7 +242,6 @@ span{
     .div__subtitulos--boton{
         font-size: 12px !important;
     }
-    
     /* Queries de contacto */
     .section__formulario--contacto{
         width: 95%;
