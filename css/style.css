@@ -30,8 +30,7 @@ ul li a{
 .div__titulos{
     letter-spacing: 3px;
 
-    font-family: "Lemon/Milk";
-    src: url("../assets/font/LemonMilk.otf");
+    font-family: 'Oswald', sans-serif;
     font-size: 95px;
 }
 .div__subtitulos{
