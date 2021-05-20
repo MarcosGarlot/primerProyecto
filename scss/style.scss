@@ -3,6 +3,11 @@ $font2: 'Julius Sans One', sans-serif;
 $blanco: #ffffff;
 $gris: #808080;
 
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+ 
 *{
     margin: 0;
     padding: 0;
@@ -101,8 +106,7 @@ ul li a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 330px;
-    width: 330px;
+    @include sizes(330px,330px);
     border-radius: 10px;
     box-shadow: 0 0 10px $gris;
 }
@@ -116,6 +120,7 @@ ul li a{
     box-shadow: 0 0 10px $gris
 }
 .div__subtitulos--boton{
+    @extend .div__texto;
     font-size: 16px !important;
 }
 /* Contacto */
@@ -184,8 +189,7 @@ ul li a{
     }
      /* Queries de servicios */
     .div__img--servicios{
-        height: 300px;
-        width: 300px;
+        @include sizes(300px, 300px);
     }
     .div__texto--servicios{
         text-align: center;

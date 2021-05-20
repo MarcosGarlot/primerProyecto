@@ -32,7 +32,7 @@ ul li a {
   font-family: "Julius Sans One", sans-serif;
   font-size: 30px; }
 
-.div__texto {
+.div__texto, .div__subtitulos--boton {
   font-family: 'Archivo Narrow', sans-serif;
   text-align: center; }
 
@@ -147,7 +147,7 @@ ul li a {
   .div__subtitulos {
     text-align: center;
     font-size: 21px; }
-  .div__texto {
+  .div__texto, .div__subtitulos--boton {
     text-align: center;
     font-size: 16px; }
   /* Queries de inicio */
