@@ -58,13 +58,16 @@ ul li a {
   filter: invert(1); }
 
 /* Inicio */
+body, html {
+  height: 100%; }
+
 .body__inicio {
-  overflow: hidden;
-  background: url("../assets/img/inicioBg.jpg") no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background: url("../assets/img/inicioBg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
 
 .div__textos--inicio {
   position: relative;
